@@ -15,6 +15,18 @@ function Header() {
   return <h1>Fast React Pizza Co.</h1>;
 }
 
+function Menu() {
+  return (
+    <div>
+      <h2>Our menu</h2>
+      <Pizza />
+      <Pizza />
+      <Pizza />
+      <Pizza />
+    </div>
+  );
+}
+
 const pizzaData = {
   name: "Delicious Spinach Pizza",
   ingredients: "spinach, mozzarella, tomatoes"
