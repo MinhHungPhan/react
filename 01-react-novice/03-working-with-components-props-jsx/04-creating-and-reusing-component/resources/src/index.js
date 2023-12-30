@@ -10,6 +10,7 @@ function App() {
     </div>
   );
 }
+
 const pizzaData = {
   name: "Delicious Spinach Pizza",
   ingredients: "spinach, mozzarella, tomatoes"
