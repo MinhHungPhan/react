@@ -2,11 +2,27 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 
 function App() {
-  return <h1>Hello React!</h1>;
+  return (
+    <div>
+      <Pizza />
+      <Pizza />
+      <Pizza />
+    </div>
+  );
 }
+const pizzaData = {
+  name: "Delicious Spinach Pizza",
+  ingredients: "spinach, mozzarella, tomatoes"
+};
 
 function Pizza() {
-
+  return (
+    <div>
+      <h2>{pizzaData.name}</h2>
+      <p>{pizzaData.ingredients}</p>
+      <img src="spinaci.jpg" alt={pizzaData.name} />
+    </div>
+  );
 }
 
 // React v18
