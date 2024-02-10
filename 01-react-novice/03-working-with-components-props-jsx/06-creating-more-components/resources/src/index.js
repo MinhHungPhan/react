@@ -4,9 +4,9 @@ import ReactDOM from 'react-dom/client';
 function App() {
   return (
     <div>
-      <Pizza />
-      <Pizza />
-      <Pizza />
+      <Header />
+      <Menu />
+      <Footer />
     </div>
   );
 }
@@ -25,6 +25,10 @@ function Menu() {
       <Pizza />
     </div>
   );
+}
+
+function Footer() {
+  return <footer>{new Date().toLocaleTimeString()}. We're currently open!</footer>;
 }
 
 const pizzaData = {
