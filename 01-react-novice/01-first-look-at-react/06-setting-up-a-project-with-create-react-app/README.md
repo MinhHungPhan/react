@@ -62,8 +62,16 @@ Remember, React doesn’t strictly dictate how you structure your projects. `Cre
 ## Running the App
 
 To start your app:
+
 1. Open the terminal in VS Code.
-2. Use the command:
+
+2. Change to the project directory by running the command:
+
+```bash
+cd pizza-menu
+```
+
+3. Use the command:
 
 ```bash
 npm start
