@@ -38,6 +38,7 @@ To initiate a new project, type:
 ```bash
 npx create-react-app@5 pizza-menu
 ```
+
 **Note**: The "@5" ensures you're using version 5 of `Create-React-App`. Adjustments to tools may occur in future versions, so this ensures consistency.
 
 After running the above command, the tool will begin downloading necessary packages and set up a directory named "pizza-menu". This process might take a few minutes.
@@ -67,13 +68,13 @@ To start your app:
 ```bash
 npm start
 ```
+
 Your app should now open in a new browser tab, running on `localhost:3000`.
 
 ## Conclusion
 
-Congratulations! You've set up and started your first Create-React-App project. As you progress, you can delve deeper into the file structure, making necessary adjustments as per your project requirements. 
-
-Happy coding! 🌱
+Congratulations! You've set up and started your first Create-React-App project. As you progress, you can delve deeper into the file structure, making necessary adjustments as per your project requirements. Happy coding! 🌱
 
 ## References
+
 - [Create React App Official Documentation](https://reactjs.org/docs/create-a-new-react-app.html#create-react-app)
