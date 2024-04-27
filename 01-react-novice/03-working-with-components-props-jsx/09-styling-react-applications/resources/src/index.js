@@ -39,10 +39,11 @@ function Footer() {
   const isOpen = hour >= openHour && hour <= closeHour;
   console.log(isOpen);
 
-  // if (hour >= openHour && hour <= closeHour) alert("We're currently open");
-  // else alert("Sorry, we're closed!");
-
-  return <footer>{new Date().toLocaleTimeString()}. We're currently open!</footer>;
+  return (
+    <footer className="footer">
+      {new Date().toLocaleTimeString()}. We're currently open!
+    </footer>
+  );
 }
 
 const pizzaData = {
