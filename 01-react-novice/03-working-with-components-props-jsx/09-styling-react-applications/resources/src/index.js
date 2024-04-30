@@ -54,9 +54,9 @@ const pizzaData = {
 function Pizza() {
   return (
     <div>
-      <h2>{pizzaData.name}</h2>
+      <h3>{pizzaData.name}</h3>
       <p>{pizzaData.ingredients}</p>
-      <img src="spinaci.jpg" alt={pizzaData.name} />
+      <img src="pizzas/spinaci.jpg" alt={pizzaData.name} />
     </div>
   );
 }
